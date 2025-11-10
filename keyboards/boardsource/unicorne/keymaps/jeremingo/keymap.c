@@ -13,7 +13,8 @@ enum tap_dances {
 };
 
 enum combos {
-    ENTLOW_CW
+    ENTLOW_CW,
+    YU_CLK
 };
 
 enum layers {
@@ -35,9 +36,11 @@ tap_dance_action_t tap_dance_actions[] = {
 };
 
 const uint16_t PROGMEM entlow_combo[] = { LSFT_ENT, MO(_LOWER), COMBO_END };
+const uint16_t PROGMEM yu_combo[] = { KC_Y, KC_U, COMBO_END };
 
 combo_t key_combos[] = {
-  [ENTLOW_CW]  = COMBO(entlow_combo, CW_TOGG)
+  [ENTLOW_CW]  = COMBO(entlow_combo, CW_TOGG),
+  [YU_CLK] = COMBO(yu_combo, MS_BTN1)
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
