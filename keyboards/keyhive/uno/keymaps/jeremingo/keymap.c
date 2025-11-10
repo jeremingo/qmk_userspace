@@ -1,5 +1,5 @@
 #include QMK_KEYBOARD_H
-#include "../../../../../quantum/keymap_extras/keymap_dvorak.h"
+#include "keymap_dvorak.h"
 
 void matrix_scan_user(void);
 
