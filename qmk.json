@@ -3,6 +3,7 @@
     "build_targets": [
         ["boardsource/unicorne", "jeremingo"],
         ["keyhive/uno", "jeremingo"],
+        ["kbdfans/niu_mini", "jeremingo"],
         ["jeremingo/kiki", "default"]
     ]
 }
