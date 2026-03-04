@@ -4,6 +4,7 @@
         ["boardsource/unicorne", "jeremingo"],
         ["keyhive/uno", "jeremingo"],
         ["kbdfans/niu_mini", "jeremingo"],
+        ["planck/rev6_drop", "jeremingo"],
         ["jeremingo/kiki", "default"]
     ]
 }
