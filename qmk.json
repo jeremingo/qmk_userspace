@@ -3,6 +3,6 @@
     "build_targets": [
         ["boardsource/unicorne", "jeremingo"],
         ["keyhive/uno", "jeremingo"],
-        ["kiki", "default"]
+        ["jeremingo/kiki", "default"]
     ]
 }
