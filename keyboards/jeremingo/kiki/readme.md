@@ -1,20 +1,20 @@
-# kiki
+# KiKi
 
-![kiki](imgur.com image replace me!)
+![KiKi](images/model.png)
 
-*A short description of the keyboard/project*
+An ARTSEY based handwired keyboard
 
-* Keyboard Maintainer: [Tair Shatit](https://github.com/jeremingo)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Keyboard Maintainer: [jeremingo](https://github.com/jeremingo)
+* Hardware Supported: Arduino Pro Micro
+* Hardware Availability: [Aliexpress](https://aliexpress.com/wholesale?SearchText=arduino+pro+micro)
 
 Make example for this keyboard (after setting up your build environment):
 
-    make kiki:default
+    make jeremingo/kiki:default
 
 Flashing example for this keyboard:
 
-    make kiki:default:flash
+    make jeremingo/kiki:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
